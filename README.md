@@ -1,5 +1,5 @@
 # Apollo Boost (Upload)
-![npm](https://img.shields.io/npm/v/apollo-boost-upload)
+[![npm](https://img.shields.io/npm/v/apollo-boost-upload)](https://www.npmjs.com/package/apollo-boost-upload)
 
 Basically ApolloBoost but with `apollo-upload-client` instead of `apollo-link-http`, so that you can upload files via Apollo.
 
