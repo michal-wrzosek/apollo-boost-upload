@@ -11,12 +11,13 @@ export default [
       }),
     ],
     output: [
-      { file: pkg.main, format: 'cjs' },
-      { file: pkg.module, format: 'esm' },
+      { file: pkg.main, format: 'cjs', exports: 'named' },
+      { file: pkg.module, format: 'esm', exports: 'named' },
       {
         file: 'example/src/typescript-lib/index.js',
         format: 'es',
         banner: '/* eslint-disable */',
+        exports: 'named',
       },
     ],
   },

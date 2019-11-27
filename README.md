@@ -1,15 +1,6 @@
-# typescript-lib-boilerplate
+# Apollo Boost (Upload)
 
-This is a boilerplate repository for creating npm packages written in TypeScript.
+Basically ApolloBoost but with 'apollo-upload-client' instead of 'apollo-link-http' so that you can upload files via Apollo.
 
-## Installation:
-
-To install all dependencies run `npm run install-all`.
-
-## Developing your library:
-
-To start developing your library, run `npm run dev`. It will build your library and run example create-react-app where you can test your library. Each time you make changes to your library or example app, app will be reloaded to reflect your changes.
-
-## Typescript
-
-This boilerplate lets you develop your libraries in Typescript and you can simultaneously test it in Typescript example create-react-app.
+It's almost an identical copy of 'apollo-boost' v0.4.4:
+https://github.com/apollographql/apollo-client/blob/master/packages/apollo-boost/src/index.ts
