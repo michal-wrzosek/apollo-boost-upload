@@ -7,6 +7,7 @@ It's almost an identical copy of 'apollo-boost':
 [apollo-boost](https://github.com/apollographql/apollo-client/blob/master/packages/apollo-boost/src/index.ts) => [apollo-boost-upload](https://github.com/michal-wrzosek/apollo-boost-upload/blob/master/src/index.ts)
 
 apollo-boost => apollo-boost-upload
+
 v0.4.4 => v1.0.0
 
 ## Installation:
